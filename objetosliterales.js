@@ -96,12 +96,12 @@ let Hulk = {
     }
 }
 
-ironMan.getPoder();
-Hulk.getPoder();
-ironMan.getPoder();
-ironMan.getPoder();
-Hulk.getPoder();
-ironMan.getPoder();
+ironMan.getPoder(0);
+Hulk.getPoder(1);
+ironMan.getPoder(2);
+ironMan.getPoder(3);
+Hulk.getPoder(4);
+ironMan.getPoder(5);
 
 //se elige un numero entre el 0 y el 2 porque el array de poderes en ambos casos tienen tres componentes, donde se empieza a contar desde 0//
 
