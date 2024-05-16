@@ -1,4 +1,5 @@
 // CON CONSOLE LOG ME FIJO LOS RESULTADOS //
+console.log('Practica 1: funciones');
 
 //Ejercicio 1// 
 

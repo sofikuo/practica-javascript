@@ -1,3 +1,5 @@
+console.log('Practica 2: objetos literales');
+
 //Ejercicio 1//
 
 let misDatos = {
