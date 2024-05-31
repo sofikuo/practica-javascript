@@ -8,10 +8,11 @@ window.addEventListener('load', function() {
         let nombre = prompt("¿CÓMO TE LLAMÁS?")
         
     })
- 
-    saludo.addEventListener("submit", function() {
+    
+    let saludo = document.querySelector("nombre")
+    saludo.addEventListener("submit", function() {;
         if (nombre == false || nombre === " ") {
-            let saludo = document.querySelector("#saludo").innerText = "BIENVENID@ USUARIO";
+            document.innerText = "BIENVENID@ USUARIO";
 
         }
         else {
